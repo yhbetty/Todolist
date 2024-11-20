@@ -6,6 +6,6 @@ export default defineConfig({
   // 建立一個開發中的路徑
   // process.env.NODE_ENV =>　取得node環境中的變數
   // 如果目前路徑等於產品路徑，就執行倉庫路徑
-  base:process.env.NODE_ENV === 'production' ?'/myReact/' :'/',
+  base:process.env.NODE_ENV === 'production' ?'/Todolist/' :'/',
   plugins: [react()],
 })
